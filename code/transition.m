@@ -1,6 +1,6 @@
 clear;
 clc
-
+% get the transition matrix of consensus sequence
 t0=['A','C','D','E','F','G','H','I','K','L','M','N','P','Q','R','S','T','V','W','Y'];
 fidin=fopen('Consensus317.txt');
 kongge=0; 
