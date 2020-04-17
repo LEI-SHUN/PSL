@@ -1,6 +1,6 @@
 clear 
 
-%% load data
+%% load extracted feature data of proteins
 load('CTM317.mat')
 load('317absEN.mat')
 
@@ -29,7 +29,7 @@ for i=1:N
     model=svmtrain(train_label,train_shu,'-t 2 ');
     [predict_label(i),accuracy,~]=svmpredict( test_label,test_shu,model);
 end
-
+% results
  OA=100*sum(label==predict_label')/N
  [Sn,Sp,MCC,Pacc,Pre,F]=Results(label,predict_label);
  jieguo=100.*Sn;
