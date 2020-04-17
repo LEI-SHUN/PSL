@@ -5,8 +5,10 @@ To run the code for predicting the subcellular location of proteins, you need to
 ## Usage
 1. feature extraction<br>
    Two evotionary information based feature extraction methods are used to formulate the apoptosis protein sequences.<br>
+   
 *consensus seuqence-based transition matrix (CTM)*<br>
 Run transition.m and tranM.m to extract CTM feature<br>
+
 *absolute entropy correlation analysis (AECA-PSSM)*<br>
 Run absoENcl.m to extract the AECA-PSSM feature of proteins.<br>
 
