@@ -1,4 +1,4 @@
-# Subcellular location prediction of apoptosis proteins
+# Subcellular location prediction of apoptosis proteins (CTM-AECA-PSSM-LDA)
 ## Install
 To run the code for predicting the subcellular location of proteins, you need to add the path of Classifier in your Matlab path.
 
